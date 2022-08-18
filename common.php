@@ -3,6 +3,7 @@
     // 회원가입 함수
     function get_user($params)
     {
+      echo "hello";
       global $con;
       foreach ($params as $key => $val) {
         $text = "";
