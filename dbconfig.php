@@ -1,15 +1,15 @@
 <?php
 $dPconfig['dbtype'] = 'mysql';
 $dPconfig['querytype'] = 'mysql';
-$dPconfig['dbhost'] = '192.168.1.103';
-$dPconfig['dbname'] = 'health';
-$dPconfig['dbuser'] = 'root';
+$dPconfig['dbhost'] = '172.18.32.1';
+$dPconfig['dbname'] = 'mysql';
+$dPconfig['dbuser'] = 'shin';
 $dPconfig['dbpass'] = 'tls6007';
 
-$db_host    = $dPconfig['dbhost'];
-$db_user    = $dPconfig['dbuser'];
-$db_pass    = $dPconfig['dbpass'];
-$db_name    = $dPconfig['dbname'];
+$db_host = $dPconfig['dbhost'];
+$db_user = $dPconfig['dbuser'];
+$db_pass = $dPconfig['dbpass'];
+$db_name = $dPconfig['dbname'];
 
 $con = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
